@@ -1,0 +1,101 @@
+manual_id,text,complaint_reason,department,feedback_category
+H001,The Primary Health Centre in our village has been out of basic medicines like paracetamol for over two weeks now.,Health,Ministry of Health & Family Welfare,Complaint
+H002,Waited 4 hours at the government hospital OPD and still didn't get to see a doctor. This needs to change.,Health,Ministry of Health & Family Welfare,Complaint
+H003,@HealthMinIndia Why are ASHA workers not visiting our locality for the last two months?,Health,Ministry of Health & Family Welfare,Complaint
+H004,No ambulance available when my father had chest pain last night. We had to arrange a private vehicle ourselves.,Health,Ministry of Health & Family Welfare,Complaint
+H005,"The maternity ward at our district hospital doesn't have enough beds, women are being made to share.",Health,Ministry of Health & Family Welfare,Complaint
+H006,Ayushman Bharat card holders are being turned away at the empanelled hospital saying the scheme quota is over.,Health,Ministry of Health & Family Welfare,Complaint
+H007,There is no female doctor available at the PHC even though it serves mostly women patients.,Health,Ministry of Health & Family Welfare,Complaint
+H008,"The vaccination camp scheduled for last Monday never happened, nobody informed us in advance.",Health,Ministry of Health & Family Welfare,Complaint
+H009,"Toilets in the government hospital are filthy and unusable, this is a serious hygiene hazard.",Health,Ministry of Health & Family Welfare,Complaint
+H010,My grandmother's cataract surgery under the government scheme has been postponed three times now.,Health,Ministry of Health & Family Welfare,Complaint
+H011,The blood bank at the civil hospital refused to issue blood without an unofficial payment.,Health,Ministry of Health & Family Welfare,Complaint
+H012,Dengue cases are rising in our area but fogging has not been done by the municipal health department in a month.,Health,Ministry of Health & Family Welfare,Complaint
+H013,"Doctors at the community health centre are absent most mornings, patients just wait outside.",Health,Ministry of Health & Family Welfare,Complaint
+H014,The free medicine counter at the government hospital only stocks half the prescribed list.,Health,Ministry of Health & Family Welfare,Complaint
+H015,"We need a functioning X-ray machine at our taluk hospital, the current one has been broken for six months.",Health,Ministry of Health & Family Welfare,Complaint
+H016,Anganwadi workers say the nutrition supplements for pregnant women have not arrived this quarter.,Health,Ministry of Health & Family Welfare,Complaint
+H017,The 108 ambulance service took over an hour to reach our village during an emergency.,Health,Ministry of Health & Family Welfare,Complaint
+H018,Patients are being asked to buy their own syringes and gloves at the government hospital pharmacy.,Health,Ministry of Health & Family Welfare,Complaint
+H019,"There's no proper referral system, we were sent between three hospitals before getting treated.",Health,Ministry of Health & Family Welfare,Complaint
+H020,The ICU at our district hospital has only two functioning beds for the entire block.,Health,Ministry of Health & Family Welfare,Complaint
+H021,"Why hasn't the promised Jan Aushadhi store opened yet in our taluk, it was announced last year.",Health,Ministry of Health & Family Welfare,Complaint
+H022,My father was denied admission at the govt hospital citing a shortage of oxygen cylinders.,Health,Ministry of Health & Family Welfare,Complaint
+H023,"The health helpline number never gets answered, I've tried calling for three days straight.",Health,Ministry of Health & Family Welfare,Complaint
+H024,Sanitary conditions at the rural hospital's labour room are extremely poor and unsafe.,Health,Ministry of Health & Family Welfare,Complaint
+H025,The mobile medical unit that used to visit our panchayat has stopped coming since last month.,Health,Ministry of Health & Family Welfare,Complaint
+H026,"Insulin is not available at the government dispensary, diabetic patients are struggling.",Health,Ministry of Health & Family Welfare,Complaint
+H027,There is a severe shortage of nursing staff on the night shift at our district hospital.,Health,Ministry of Health & Family Welfare,Complaint
+H028,The eye check-up camp promised under the government scheme was cancelled without any notice.,Health,Ministry of Health & Family Welfare,Complaint
+H029,"Our PHC doesn't have a functioning ultrasound machine, pregnant women have to travel 40km.",Health,Ministry of Health & Family Welfare,Complaint
+H030,Medical records at the government hospital are still handled manually and often go missing.,Health,Ministry of Health & Family Welfare,Complaint
+H031,The Covid vaccination centre near us shut down without any new location being announced.,Health,Ministry of Health & Family Welfare,Complaint
+H032,TB patients under the government program are not receiving their monthly medicine kits on time.,Health,Ministry of Health & Family Welfare,Complaint
+H033,The government hospital charged us for a test that is supposed to be free under the scheme.,Health,Ministry of Health & Family Welfare,Complaint
+H034,"There's no wheelchair or stretcher available at our local health centre, elderly patients suffer.",Health,Ministry of Health & Family Welfare,Complaint
+H035,The mental health counselling service listed on the health department website doesn't actually exist at that centre.,Health,Ministry of Health & Family Welfare,Complaint
+H036,"Rats have been spotted in the hospital's medicine storage room, this is unacceptable.",Health,Ministry of Health & Family Welfare,Complaint
+H037,Why is the government hospital's emergency ward always understaffed on weekends?,Health,Ministry of Health & Family Welfare,Complaint
+H038,"The dialysis unit at our hospital has a two week waiting list, patients are suffering.",Health,Ministry of Health & Family Welfare,Complaint
+H039,Newborn screening tests promised free of cost are being charged at the hospital counter.,Health,Ministry of Health & Family Welfare,Complaint
+H040,"The health department hasn't replaced the broken generator, power cuts stop surgeries midway.",Health,Ministry of Health & Family Welfare,Complaint
+H041,Our village still doesn't have a functioning sub-centre despite being sanctioned three years ago.,Health,Ministry of Health & Family Welfare,Complaint
+H042,Patients with government insurance cards are being asked to pay in cash at private empanelled hospitals.,Health,Ministry of Health & Family Welfare,Complaint
+H043,The nutrition rehabilitation centre for malnourished children has been shut for renovation with no timeline.,Health,Ministry of Health & Family Welfare,Complaint
+H044,Ambulance drivers are demanding extra money for fuel even though the service is meant to be free.,Health,Ministry of Health & Family Welfare,Complaint
+H045,The government hospital pharmacy is out of stock of common antibiotics again this month.,Health,Ministry of Health & Family Welfare,Complaint
+H046,Why does the health department app show wrong doctor availability timings every single day?,Health,Ministry of Health & Family Welfare,Complaint
+H047,Our area hasn't received a single ASHA worker visit despite being marked high-risk for malaria.,Health,Ministry of Health & Family Welfare,Complaint
+H048,The post-natal care ward doesn't have proper bedding or basic hygiene supplies.,Health,Ministry of Health & Family Welfare,Complaint
+H049,Senior citizens are struggling because the geriatric care unit promised at our hospital was never set up.,Health,Ministry of Health & Family Welfare,Complaint
+H050,The government eye hospital cancelled my mother's surgery date twice without explanation.,Health,Ministry of Health & Family Welfare,Complaint
+E001,The government school in our area has been without a science teacher for over a year.,Education,Ministry of Education,Complaint
+E002,@EduMinOfIndia Why hasn't the promised new building for our school been constructed yet?,Education,Ministry of Education,Complaint
+E003,The mid-day meal served at the school yesterday made several children sick.,Education,Ministry of Education,Complaint
+E004,"There are no functional toilets for girls at the government school, this needs urgent attention.",Education,Ministry of Education,Complaint
+E005,Our school hasn't received textbooks even though the academic year started two months ago.,Education,Ministry of Education,Complaint
+E006,The scholarship amount promised under the government scheme hasn't been credited for two semesters.,Education,Ministry of Education,Complaint
+E007,Classrooms are overcrowded with more than 60 students per teacher in our municipal school.,Education,Ministry of Education,Complaint
+E008,The school doesn't have a functioning library despite it being listed in the infrastructure report.,Education,Ministry of Education,Complaint
+E009,"Teachers assigned to our school are frequently absent, affecting the children's learning badly.",Education,Ministry of Education,Complaint
+E010,There is no proper drinking water facility at the primary school in our village.,Education,Ministry of Education,Complaint
+E011,The computer lab promised under the digital education scheme has never actually been set up.,Education,Ministry of Education,Complaint
+E012,My daughter's transfer certificate has been pending at the school office for three months now.,Education,Ministry of Education,Complaint
+E013,"The school building's roof is leaking and unsafe during monsoon, yet nothing has been done.",Education,Ministry of Education,Complaint
+E014,"We were told uniforms would be provided free of cost, but nothing has arrived this year.",Education,Ministry of Education,Complaint
+E015,The government college doesn't have enough lab equipment for the science practicals.,Education,Ministry of Education,Complaint
+E016,Why are exam results being delayed every single year at our university?,Education,Ministry of Education,Complaint
+E017,The bus service for school children that was promised under the scheme was cancelled without notice.,Education,Ministry of Education,Complaint
+E018,There's no special educator for children with disabilities at our government school.,Education,Ministry of Education,Complaint
+E019,The teacher-student ratio at our school violates the norms set by the education department.,Education,Ministry of Education,Complaint
+E020,Fee waivers under the government scholarship scheme are not being processed on time.,Education,Ministry of Education,Complaint
+E021,Our school playground has been encroached and the authorities have done nothing about it.,Education,Ministry of Education,Complaint
+E022,The syllabus for this semester was uploaded on the portal only a week before the exam.,Education,Ministry of Education,Complaint
+E023,Anganwadi centre attached to our school doesn't have proper educational toys or materials.,Education,Ministry of Education,Complaint
+E024,The Right to Education admission process at this school was denied without valid reason.,Education,Ministry of Education,Complaint
+E025,Why hasn't the vacant principal post at our government school been filled for six months?,Education,Ministry of Education,Complaint
+E026,Students are made to sit on the floor because there aren't enough desks and benches.,Education,Ministry of Education,Complaint
+E027,"The school doesn't have electricity, so computer classes are basically non-functional.",Education,Ministry of Education,Complaint
+E028,"Our college's hostel doesn't have proper security, several thefts have gone unreported.",Education,Ministry of Education,Complaint
+E029,The scholarship portal keeps rejecting my application citing a technical error every time.,Education,Ministry of Education,Complaint
+E030,There is no proper sports equipment at the school despite funds being sanctioned last year.,Education,Ministry of Education,Complaint
+E031,The government school in our block still hasn't got the promised smart classroom setup.,Education,Ministry of Education,Complaint
+E032,Teachers are being pulled for election duty so frequently that classes are constantly disrupted.,Education,Ministry of Education,Complaint
+E033,"The mid-day meal kitchen doesn't meet basic hygiene standards, this needs an inspection.",Education,Ministry of Education,Complaint
+E034,My son's school certificate has an error in his name and the office refuses to correct it quickly.,Education,Ministry of Education,Complaint
+E035,There's no ramp or accessible entry for differently-abled students at our school.,Education,Ministry of Education,Complaint
+E036,The government college has not released the revised fee structure despite repeated requests.,Education,Ministry of Education,Complaint
+E037,Our school still uses outdated textbooks that don't match the current syllabus.,Education,Ministry of Education,Complaint
+E038,The scholarship for SC/ST students hasn't been disbursed for this academic year yet.,Education,Ministry of Education,Complaint
+E039,"Why do government school teachers get transferred mid-year, disrupting the children's studies?",Education,Ministry of Education,Complaint
+E040,The school inspection team never actually visited despite the scheduled date passing.,Education,Ministry of Education,Complaint
+E041,There's no counselor available at our school for students dealing with exam stress.,Education,Ministry of Education,Complaint
+E042,The promised free bicycle scheme for girl students hasn't reached our village school.,Education,Ministry of Education,Complaint
+E043,Admission under the RTE quota was denied to my child despite meeting all eligibility criteria.,Education,Ministry of Education,Complaint
+E044,"The government school building doesn't have a boundary wall, raising safety concerns.",Education,Ministry of Education,Complaint
+E045,Our university library hasn't updated its book collection in over five years.,Education,Ministry of Education,Complaint
+E046,The teacher training program promised by the education department was cancelled at the last moment.,Education,Ministry of Education,Complaint
+E047,Why is internet connectivity so poor at the government school that online classes are impossible.,Education,Ministry of Education,Complaint
+E048,The exam fee once paid isn't being refunded even though the exam itself got cancelled.,Education,Ministry of Education,Complaint
+E049,Our school doesn't have a functioning first-aid kit despite it being a mandatory requirement.,Education,Ministry of Education,Complaint
+E050,The government college professor post has been vacant for two years affecting the entire department.,Education,Ministry of Education,Complaint
