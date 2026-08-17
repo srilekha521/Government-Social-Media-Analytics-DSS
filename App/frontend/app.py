@@ -34,7 +34,13 @@ st.set_page_config(
 )
 
 # Backend & File Paths
-BACKEND_URL = "http://127.0.0.1:8000"
+# Resolves from: Session State -> Streamlit Secrets -> Environment Variable -> Localhost Default
+BACKEND_URL = os.getenv("BACKEND_URL", "http://127.0.0.1:8000")
+if "BACKEND_URL" in st.secrets:
+    BACKEND_URL = st.secrets["BACKEND_URL"]
+if "custom_backend_url" in st.session_state and st.session_state["custom_backend_url"].strip():
+    BACKEND_URL = st.session_state["custom_backend_url"].strip().rstrip("/")
+
 BASE_DIR = Path(__file__).resolve().parent
 PROJECT_DIR = BASE_DIR.parent.parent
 DATA_DIR = PROJECT_DIR / "Data"
@@ -53,13 +59,16 @@ try:
     if "SUPABASE_URL" in st.secrets and "SUPABASE_KEY" in st.secrets:
         supabase = create_client(st.secrets["SUPABASE_URL"], st.secrets["SUPABASE_KEY"])
         SUPABASE_STATUS = "Connected"
+    elif os.getenv("SUPABASE_URL") and os.getenv("SUPABASE_KEY"):
+        supabase = create_client(os.getenv("SUPABASE_URL"), os.getenv("SUPABASE_KEY"))
+        SUPABASE_STATUS = "Connected"
 except Exception as e:
     SUPABASE_STATUS = f"Offline ({str(e)[:25]}...)"
 
 # Check Backend API Health
 BACKEND_ONLINE = False
 try:
-    health_resp = requests.get(f"{BACKEND_URL}/", timeout=1.5)
+    health_resp = requests.get(f"{BACKEND_URL}/", timeout=2.5)
     if health_resp.status_code == 200:
         BACKEND_ONLINE = True
 except Exception:
@@ -525,7 +534,7 @@ with st.sidebar:
     
     # Backend indicator
     if BACKEND_ONLINE:
-        st.markdown('<span class="status-pill status-online">● Backend API: Online (8000)</span>', unsafe_allow_html=True)
+        st.markdown(f'<span class="status-pill status-online">● Backend API: Online ({BACKEND_URL.split("://")[-1][:20]})</span>', unsafe_allow_html=True)
     else:
         st.markdown('<span class="status-pill status-standby">● Backend: Standalone Mode</span>', unsafe_allow_html=True)
     
@@ -537,8 +546,20 @@ with st.sidebar:
     else:
         st.markdown(f'<span class="status-pill status-standby">● Supabase: Demo Fallback</span>', unsafe_allow_html=True)
 
-    st.markdown("<div style='height: 15px;'></div>", unsafe_allow_html=True)
-    st.caption("🔒 GovTech Decision Support v2.5 | Enterprise ML Edition")
+    # Cloud Connection Configuration Expander
+    with st.expander("🌐 Cloud Backend Settings", expanded=False):
+        st.caption("Connect your deployed Render.com FastAPI URL:")
+        new_backend = st.text_input(
+            "Backend URL", 
+            value=BACKEND_URL, 
+            placeholder="https://govdss-backend.onrender.com"
+        )
+        if st.button("🔗 Test & Save Cloud URL", use_container_width=True):
+            st.session_state["custom_backend_url"] = new_backend.strip()
+            st.rerun()
+
+    st.markdown("<div style='height: 10px;'></div>", unsafe_allow_html=True)
+    st.caption("🔒 GovTech Decision Support v2.5 | Enterprise Cloud Edition")
 
 # =============================================================================
 # 7. PAGE 1: 🏛️ EXECUTIVE COMMAND HUB
